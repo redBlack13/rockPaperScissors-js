@@ -1,19 +1,12 @@
- const choices = ["rock", "paper", "scissors"]
+ console.log("hi");
  
- function game () {
-    //play the gamer
-    //play 5 rounds
-    //console based
- }
+ const options = ["rock", "paper", "scissors"]
 
- function playRound () {
-    
+ function getComputerChoice() {
+   const choice = options[Math.floor(Math.random() * options.length)];
+   console.log(choice);
+   
  }
-  
- function playerChoice() { 
-    //get input from the player 
- }
-
- function computerChoice() {
-  return choices[Math.floor(Math.random()*choices.length)]  
-}
+ 
+ getComputerChoice();
+ 
